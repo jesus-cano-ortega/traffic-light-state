@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 //Traffic-light component
-const Home = () => {
+const TrafficLight = () => {
 	//Hooks
 	const [color, setColor] = useState("red");
 
@@ -30,4 +30,4 @@ const Home = () => {
 	);
 };
 
-export default Home;
+export default TrafficLight;
